@@ -56,9 +56,9 @@ function outputData(person) {
   if ((new RegExp(/192/gi)).test(person.birthyear)) {
     row.classList.add('born_1920_1929');
   }
-  // Add a class to Musician
+  // Add a class to Musicians
   if ((new RegExp(/music/gi)).test(person.profession)) {
-    row.classList.add('musician');
+    row.classList.add('musicians');
   }
 
 }
