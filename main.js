@@ -56,7 +56,7 @@ function outputData(person) {
   if ((new RegExp(/american/gi)).test(person.profession)) {
     row.classList.add('american');
   }
-  // Add a class to born_1920_1929
+  // Addd a class to born_1920_1929
   if ((new RegExp(/192/gi)).test(person.birthyear)) {
     row.classList.add('born_1920_1929');
   }
