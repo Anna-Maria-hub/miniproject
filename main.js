@@ -44,10 +44,6 @@ function outputData(person) {
   if ((new RegExp(/actor|actress/gi)).test(person.profession)) {
     row.classList.add('actor');
   }
-  // Add a class to Musician
-  if ((new RegExp(/music/gi)).test(person.profession)) {
-    row.classList.add('musician');
-  }
   // Add a class to Auto*
   if ((new RegExp(/author/gi)).test(person.profession)) {
     row.classList.add('auto');
@@ -59,6 +55,10 @@ function outputData(person) {
   // Addd a class to born_1920_1929
   if ((new RegExp(/192/gi)).test(person.birthyear)) {
     row.classList.add('born_1920_1929');
+  }
+  // Add a class to Musician
+  if ((new RegExp(/music/gi)).test(person.profession)) {
+    row.classList.add('musician');
   }
 
 }
