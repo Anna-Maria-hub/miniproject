@@ -44,9 +44,9 @@ function outputData(person) {
   if ((new RegExp(/actor|actress/gi)).test(person.profession)) {
     row.classList.add('actor');
   }
-  // Add a class to Musicians
-  if ((new RegExp(/music|singer|composer|pianist|drummer/gi)).test(person.profession)) {
-    row.classList.add('musicians');
+  // Add a class to Musician
+  if ((new RegExp(/music/gi)).test(person.profession)) {
+    row.classList.add('musician');
   }
   // Add a class to Auto*
   if ((new RegExp(/author/gi)).test(person.profession)) {
