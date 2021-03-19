@@ -1,6 +1,7 @@
 body {
   padding: 0 30px 0 30px;
-  background-image: image("C:\Users\leopo\Desktop\Anna-Maria Sachen\Projects\WhatsApp Image 2021-01-24 at 09.12.55.jpeg");
+  background-image: image(C:\Users\leopo\Desktop\Anna-Maria Sachen\Projects\miniproject\WhatsApp Image 2021-01-20 at 09.17.31.jpeg);
+  background-repeat: repeat;
 }
 
 p {
