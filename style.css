@@ -44,6 +44,7 @@ table, th, td {
 }
 th {
   background-color: #7393B8;
+  color: white;
 }
 table {
   margin-top: 15px;
