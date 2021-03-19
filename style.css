@@ -42,7 +42,9 @@ table, th, td {
   font-family: monospace;
   border: 1px solid black;
 }
-
+th {
+  background-color: #7393B8;
+}
 table {
   margin-top: 15px;
 }
