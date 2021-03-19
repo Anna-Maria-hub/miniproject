@@ -9,6 +9,8 @@ p {
 h1 {
   font-family: sans-serif;
   text-transform: capitalize;
+  color: #99c4f5;
+  text-decoration: underline;
 }
 button {
   font-size: 16px;
@@ -25,7 +27,7 @@ button {
   background-color: lightblue;
 }
 .yellowButton{
-  background-color: lightyellow;
+  background-color: #FFE14D;
 }
 .reallyredButton{
   background-color: red;
