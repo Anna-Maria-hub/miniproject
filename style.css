@@ -1,6 +1,6 @@
 body {
   padding: 0 30px 0 30px;
-}
+  background-image: repeating-linear-gradient("C:\Users\leopo\Desktop\Anna-Maria Sachen\Projects\miniproject\WhatsApp Image 2021-01-20 at 09.17.31.jpeg"
 
 p {
   font-family: monospace;
@@ -9,7 +9,7 @@ p {
 h1 {
   font-family: sans-serif;
   text-transform: capitalize;
-  color: #99c4f5;
+  color: #7393B8;
   text-decoration: underline;
 }
 button {
